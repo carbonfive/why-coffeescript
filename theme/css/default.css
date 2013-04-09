@@ -301,7 +301,7 @@ slides > slide.dark {
 /* line 171, ../scss/default.scss */
 slides > slide:not(.nobackground):before {
   font-size: 12pt;
-  content: "#yourhashtag";
+  content: "#coffeescript";
   position: absolute;
   bottom: 20px;
   left: 60px;
@@ -473,6 +473,22 @@ h2 {
   line-height: 45px;
   letter-spacing: -2px;
   color: #515151;
+}
+
+h2 .love {
+  color: green;
+}
+
+h2 .love:before {
+  content: 'love';
+}
+
+h2 .hate {
+  color: darkred;
+}
+
+h2 .hate:before {
+  content: 'hate';
 }
 
 /* line 323, ../scss/default.scss */
